@@ -6,13 +6,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="bootstrap-dist/css/bootstrap.min.css">
     <script src="bootstrap-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
     <style>
         .mmm{
             width: 100%;
             height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            /* display: flex;
+            /* justify-content: center; */
+            /* align-items: center; */ */
            
         }
         button{
@@ -22,6 +23,7 @@
 </head>
 <body>
     <div class="mmm">
+      <br><br>
     <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top">
         Tooltip on top
       </button>
@@ -34,6 +36,8 @@
       <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left">
         Tooltip on left
       </button>
+      <br>
+      <button><i class="bi bi-rocket-takeoff"></i></button>
     </div>
       <script>
         const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
